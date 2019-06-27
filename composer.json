@@ -1,0 +1,17 @@
+{
+    "name": "lukasw/geo-ip-api",
+    "description": "Interface library for different GeoIP api services.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lukas W.",
+            "email": "lukasw@audentio.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {"GeoIP\\": "src/"}
+    }
+}
